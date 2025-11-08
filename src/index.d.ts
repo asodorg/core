@@ -1,5 +1,3 @@
-/// <reference path="global.d.ts" />
-
 declare namespace ASOD {
   type Primitive =
     | string
