@@ -9,6 +9,9 @@ declare namespace ASOD {
     | symbol
     | null
     | undefined;
+
+  type ObjectKey = string | symbol | number;
+  type Object<TValue = any> = Record<ObjectKey, TValue>;
 }
 
 export = ASOD;
