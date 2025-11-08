@@ -9,6 +9,7 @@ const config: Config = {
     '!**/node_modules/**',
   ],
   coverageDirectory: 'coverage',
+  passWithNoTests: true,
   preset: 'ts-jest',
   testEnvironment: 'node',
 };
